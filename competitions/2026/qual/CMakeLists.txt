@@ -1,0 +1,1 @@
+add_subdirectory(kitchen_duty_roster)
