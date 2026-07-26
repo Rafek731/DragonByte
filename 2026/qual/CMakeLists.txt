@@ -1,0 +1,5 @@
+add_subdirectory(kitchen-duty-roster)
+add_subdirectory(riffle-shuffle)
+add_subdirectory(subtract-first-digit)
+add_subdirectory(table-drawing)
+add_subdirectory(water-slides)
