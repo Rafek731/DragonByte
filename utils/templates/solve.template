@@ -1,0 +1,17 @@
+#include <iostream>
+
+#include "Solution.hpp"
+
+class Solution_#problemName# : public Solution {
+    void solve() const override {
+
+    }
+};
+
+int main() {
+    std::cout << "Solving #problemName# started\n";
+    Solution_#problemName# s;
+    s.solve();
+    std::cout << "Solving #problemName# done\n";
+    return 0;
+}

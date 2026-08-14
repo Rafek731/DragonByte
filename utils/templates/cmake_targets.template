@@ -1,0 +1,24 @@
+# check
+add_executable(#TARGET#_check
+    "${CMAKE_CURRENT_LIST_DIR}/src/check.cpp"
+)
+
+set_target_properties(#TARGET#_check
+    PROPERTIES
+        OUTPUT_NAME #TARGET_SHORT#_check
+)
+
+# solve
+add_executable(#TARGET#_solve
+    "${CMAKE_CURRENT_LIST_DIR}/src/solve.cpp"
+)
+
+set_target_properties(#TARGET#_solve
+    PROPERTIES
+        OUTPUT_NAME #TARGET_SHORT#_solve
+)
+
+target_link_libraries(#TARGET#_solve
+    PRIVATE
+        solution_lib
+)
