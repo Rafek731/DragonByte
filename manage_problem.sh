@@ -12,7 +12,7 @@ fi
 
 DIR_BEFORE_SCRIPT=$(pwd)
 REPO_ROOT="$(dirname $(realpath "$0"))"
-TEMPLATES="$REPO_ROOT/utils/templates"
+TEMPLATES="$REPO_ROOT/templates"
 
 add=true
 
