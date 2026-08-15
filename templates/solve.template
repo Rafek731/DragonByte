@@ -1,8 +1,8 @@
 #include <iostream>
 
-#include "Solution.hpp"
+#include "Problem.hpp"
 
-class Solution_#problemName# : public Solution {
+class Problem_#problemName# : public Problem {
     void solve() const override {
 
     }
@@ -10,7 +10,7 @@ class Solution_#problemName# : public Solution {
 
 int main() {
     std::cout << "Solving #problemName# started\n";
-    Solution_#problemName# s;
+    Problem_#problemName# s;
     s.solve();
     std::cout << "Solving #problemName# done\n";
     return 0;

@@ -20,5 +20,5 @@ set_target_properties(2026_qual_kitchen_duty_roster_solve
 
 target_link_libraries(2026_qual_kitchen_duty_roster_solve
     PRIVATE
-        solution_lib
+        problem_lib
 )
